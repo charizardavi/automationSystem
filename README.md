@@ -1,4 +1,5 @@
 # AutomationHubGUI
+A DIY basic home automation system
 
 # Collaborators
 CodeWithAaditya, and charizardavi
@@ -23,3 +24,4 @@ Use Arduino IDE to updload Code
 
 ## To use the HUB GUI
 Run the build command above and run an nginx server
+
