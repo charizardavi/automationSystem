@@ -2,7 +2,7 @@
 A DIY basic home automation system
 
 # Collaborators
-@CodeWithAaditya, and @charizardavi
+@CodeWithAaditya (https://github.com/CodeWithAaditya), and @charizardavi (https://github.com/charizardavi/)
 
 ## Development server
 
