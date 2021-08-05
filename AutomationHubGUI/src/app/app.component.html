@@ -1,0 +1,19 @@
+<div class="fullscreen" style="background-image: linear-gradient(45deg, #8dc1f1, #9ffce1)">
+<div (click)="lightClicked()" class="card shadow-sm card-style dragable" (cdkDragStarted)="handleDragStarted()" cdkDrag>
+
+  <div class="h3 row"><mat-icon color="primary" style="font-size: 35px;" class="col-2">lightbulb</mat-icon><div class="col-10">Aadi's Lights</div></div>
+  <div style="font-size: 60px; font-weight:bolder; margin-top: 2rem;">
+    {{text}}
+  </div>
+</div>
+<div class="card shadow-sm card-style">
+
+  <div class="h3 row"><mat-icon color="primary" style="font-size: 35px;" class="col-2">cloud</mat-icon><div class="col-1"></div>Weather</div>
+  <div style="font-size: 50px; font-weight:regular; margin-top: 1.5rem;">
+    {{temp}}&deg;F
+  </div>
+  <div style="font-size: 25px; margin-top: 1.5rem;">{{rain}}</div>
+</div>
+</div>
+<router-outlet></router-outlet>
+
